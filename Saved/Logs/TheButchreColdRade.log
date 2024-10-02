@@ -1425,3 +1425,387 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.02-13.26.52:560][907]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms
 [2024.10.02-13.26.52:562][907]AssetCheck: New page: Asset Save: LD_1
 [2024.10.02-13.26.52:562][907]LogContentValidation: Display: Validating /Script/Engine.World /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1
+[2024.10.02-13.31.44:348][666]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2024.10.02-13.31.44:348][666]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2024.10.02-13.32.22:797][885]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.10.02-13.32.22:797][885]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.10.02-13.33.01:191][122]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.10.02-13.34.13:518][952]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave door_open...
+[2024.10.02-13.34.13:518][952]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave door_closed...
+[2024.10.02-13.34.13:518][952]LogStaticMesh: Display: Building static mesh MODE_Armoire...
+[2024.10.02-13.34.13:533][952]LogStaticMesh: Built static mesh [0.01s] /Game/ButcherProject/Assets/MODE_Armoire.MODE_Armoire
+[2024.10.02-13.34.13:547][952]LogAudio: Display: Chunk sizes for SoundWave /Game/ButcherProject/Sounds/SFX/door_closed.door_closed: Chunk0=28 bytes, Chunk1-N=256k
+[2024.10.02-13.34.13:548][952]LogAudio: Display: Chunk sizes for SoundWave /Game/ButcherProject/Sounds/SFX/door_open.door_open: Chunk0=28 bytes, Chunk1-N=256k
+[2024.10.02-13.34.13:555][952]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.02-13.34.13:639][954]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.34.13:640][954]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.34.13:645][954]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_0
+[2024.10.02-13.34.13:646][954]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_0
+[2024.10.02-13.34.13:656][955]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.10.02-13.34.17:292][229]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.34.17:292][229]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.34.17:296][229]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_1
+[2024.10.02-13.34.17:297][229]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_1
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: ================================================
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Total job queries 3 671, among them cache hits 11 (0.30%)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Tracking 3 651 distinct input hashes that result in 2 627 distinct outputs (71.95%)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: RAM used: 67,25 MiB of 819,20 MiB budget. Usage: 8.21%
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Shaders Compiled: 3 651
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Jobs assigned 3 656, completed 3 651 (99.86%)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Average time worker was idle: 30.48 s
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Time job spent in pending queue: average 90.54 s, longest 196.36 s
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Job execution time: average 4.57 s, max 20.78 s
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Job life time (pending + execution): average 95.23 s, max 202.03
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Shader code size: average 38,298 KiB, min 2,086 KiB, max 162,84 KiB
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 226.61 s
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Jobs were issued in 410 batches (only local compilation was used), average 8.92 jobs/batch
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Average processing rate: 16.11 jobs/sec
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Total thread time: 1 691,968 s
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Total thread preprocess time: 97,157 s
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Percentage time preprocessing: 5.74%
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Effective parallelization: 7.47 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 9.07 sec, max 14.80 sec, min 1.98 sec)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.60 sec, max 9.13 sec, min 4.59 sec)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 4.66 sec, max 4.66 sec, min 4.66 sec)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 (compiled    1 times, average 2.62 sec, max 2.62 sec, min 2.62 sec)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display:                          TVoxelizeVolumeVS<VMode_Object_Box> (compiled    1 times, average 2.62 sec, max 2.62 sec, min 2.62 sec)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display:                                             FDeferredLightPS - 14.44% of total time (compiled  134 times, average 1.82 sec, max 6.56 sec, min 1.28 sec)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.39% of total time (compiled   96 times, average 0.95 sec, max 6.34 sec, min 0.57 sec)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 4.34% of total time (compiled   33 times, average 2.23 sec, max 4.09 sec, min 1.36 sec)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 4.26% of total time (compiled   34 times, average 2.12 sec, max 4.29 sec, min 1.02 sec)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.15% of total time (compiled   96 times, average 0.73 sec, max 1.25 sec, min 0.16 sec)
+[2024.10.02-13.34.23:619][694]LogShaderCompilers: Display: ================================================
+[2024.10.02-13.35.24:861][104]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.35.24:861][104]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.35.24:862][104]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_2
+[2024.10.02-13.35.24:864][104]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_2
+[2024.10.02-13.35.26:898][242]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.35.26:898][242]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.35.26:901][242]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_3
+[2024.10.02-13.35.26:902][242]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_3
+[2024.10.02-13.37.11:743][296]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.10.02-13.37.11:743][296]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.10.02-13.37.15:115][485]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.10.02-13.37.15:115][485]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.10.02-13.37.15:740][521]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.10.02-13.37.15:741][521]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2024.10.02-13.37.42:676][106]Cmd: DUPLICATE
+[2024.10.02-13.37.42:676][106]Cmd: ACTOR DUPLICATE
+[2024.10.02-13.38.04:847][384]LogViewport: Scene viewport resized to 1668x624, mode Windowed.
+[2024.10.02-13.38.09:530][657]LogViewport: Scene viewport resized to 1659x624, mode Windowed.
+[2024.10.02-13.38.09:550][658]LogViewport: Scene viewport resized to 1639x624, mode Windowed.
+[2024.10.02-13.38.09:587][659]LogViewport: Scene viewport resized to 1613x624, mode Windowed.
+[2024.10.02-13.38.09:619][660]LogViewport: Scene viewport resized to 1602x624, mode Windowed.
+[2024.10.02-13.38.09:648][661]LogViewport: Scene viewport resized to 1593x624, mode Windowed.
+[2024.10.02-13.38.09:679][662]LogViewport: Scene viewport resized to 1587x624, mode Windowed.
+[2024.10.02-13.38.09:710][663]LogViewport: Scene viewport resized to 1577x624, mode Windowed.
+[2024.10.02-13.38.09:737][664]LogViewport: Scene viewport resized to 1568x624, mode Windowed.
+[2024.10.02-13.38.09:769][665]LogViewport: Scene viewport resized to 1565x624, mode Windowed.
+[2024.10.02-13.38.09:800][666]LogViewport: Scene viewport resized to 1553x624, mode Windowed.
+[2024.10.02-13.38.09:831][667]LogViewport: Scene viewport resized to 1535x624, mode Windowed.
+[2024.10.02-13.38.09:863][668]LogViewport: Scene viewport resized to 1516x624, mode Windowed.
+[2024.10.02-13.38.09:898][669]LogViewport: Scene viewport resized to 1502x624, mode Windowed.
+[2024.10.02-13.38.09:931][670]LogViewport: Scene viewport resized to 1486x624, mode Windowed.
+[2024.10.02-13.38.09:964][671]LogViewport: Scene viewport resized to 1470x624, mode Windowed.
+[2024.10.02-13.38.09:999][672]LogViewport: Scene viewport resized to 1456x624, mode Windowed.
+[2024.10.02-13.38.10:034][673]LogViewport: Scene viewport resized to 1437x624, mode Windowed.
+[2024.10.02-13.38.10:064][674]LogViewport: Scene viewport resized to 1417x624, mode Windowed.
+[2024.10.02-13.38.10:097][675]LogViewport: Scene viewport resized to 1409x624, mode Windowed.
+[2024.10.02-13.38.10:127][676]LogViewport: Scene viewport resized to 1407x624, mode Windowed.
+[2024.10.02-13.38.10:162][677]LogViewport: Scene viewport resized to 1404x624, mode Windowed.
+[2024.10.02-13.38.10:194][678]LogViewport: Scene viewport resized to 1403x624, mode Windowed.
+[2024.10.02-13.38.10:228][679]LogViewport: Scene viewport resized to 1402x624, mode Windowed.
+[2024.10.02-13.38.10:257][680]LogViewport: Scene viewport resized to 1406x624, mode Windowed.
+[2024.10.02-13.38.46:158][643]LogSlate: Window 'Accept changes instead?' being destroyed
+[2024.10.02-13.38.46:162][643]Message dialog closed, result: Yes, title: Accept changes instead?, text: The tool is being cancelled, which normally discards all changes. Would you like to apply the changes instead?
+
+ Selecting "No" or closing this window will discard the tool's current work.
+[2024.10.02-13.38.46:181][643]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296) ...
+[2024.10.02-13.38.46:213][643]LogStaticMesh: Display: Building static mesh CubeGridToolOutput_9C184296...
+[2024.10.02-13.38.46:231][643]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296) ...
+[2024.10.02-13.38.46:238][643]LogStaticMesh: Built static mesh [0.02s] /Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296.CubeGridToolOutput_9C184296
+[2024.10.02-13.38.46:345][643]LogViewport: Scene viewport resized to 1826x624, mode Windowed.
+[2024.10.02-13.38.49:975][795]LogMeshUtilities: Finished distance field build in 3.7s - 126x126x126 sparse distance field, 2.6Mb total, 0.1Mb always loaded, 75% occupied, 1195 triangles, CubeGridToolOutput_9C184296
+[2024.10.02-13.38.56:699][184]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.38.56:700][184]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.38.56:703][184]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_4
+[2024.10.02-13.38.56:705][184]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_4
+[2024.10.02-13.39.01:053][405]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.39.01:053][405]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.39.01:055][405]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_5
+[2024.10.02-13.39.01:056][405]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_5
+[2024.10.02-13.39.02:720][497]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.39.02:720][497]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Porte/BP_Door.BP_Door_C
+[2024.10.02-13.39.02:723][497]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_6
+[2024.10.02-13.39.02:724][497]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Porte/BP_Door.BP_Door as actor: BP_Door_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Door_C_6
+[2024.10.02-13.39.34:180][364]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave window-blinds-99857...
+[2024.10.02-13.39.34:197][364]LogAudio: Display: Chunk sizes for SoundWave /Game/ButcherProject/Sounds/SFX/window-blinds-99857.window-blinds-99857: Chunk0=28 bytes, Chunk1-N=256k
+[2024.10.02-13.39.34:217][364]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.02-13.39.34:414][372]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.39.34:414][372]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.39.34:417][372]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_0
+[2024.10.02-13.39.34:418][372]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_0
+[2024.10.02-13.39.38:420][591]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.39.38:420][591]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.39.38:423][591]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_1
+[2024.10.02-13.39.38:424][591]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_1
+[2024.10.02-13.40.26:863][480]Cmd: DUPLICATE
+[2024.10.02-13.40.26:864][480]Cmd: ACTOR DUPLICATE
+[2024.10.02-13.40.26:910][480]LogClass: Warning: Short type name "BP_Rideau_C_1" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.10.02-13.40.26:918][480]LogClass: Warning: Short type name "BP_Rideau_C_1" provided for TryFindType. Please convert it to a path name (suggested: "None"). Callstack:
+
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+UnknownFunction []
+
+[2024.10.02-13.41.05:520][634]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.41.05:520][634]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.41.05:521][634]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_3
+[2024.10.02-13.41.05:522][634]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_3
+[2024.10.02-13.41.06:859][699]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.41.06:859][699]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.41.06:865][699]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_4
+[2024.10.02-13.41.06:866][699]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_4
+[2024.10.02-13.41.28:158][948]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.41.28:158][948]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.41.28:160][948]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_5
+[2024.10.02-13.41.28:161][948]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_5
+[2024.10.02-13.41.32:324][175]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.41.32:324][175]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.41.32:327][175]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_6
+[2024.10.02-13.41.32:328][175]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_6
+[2024.10.02-13.41.46:393][  1]LogViewport: Scene viewport resized to 1406x624, mode Windowed.
+[2024.10.02-13.42.14:920][539]LogSlate: Window 'Accept changes instead?' being destroyed
+[2024.10.02-13.42.14:924][539]Message dialog closed, result: Yes, title: Accept changes instead?, text: The tool is being cancelled, which normally discards all changes. Would you like to apply the changes instead?
+
+ Selecting "No" or closing this window will discard the tool's current work.
+[2024.10.02-13.42.14:945][539]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/LevelPrototyping/Meshes/SM_Cube) ...
+[2024.10.02-13.42.14:958][539]LogStaticMesh: Display: Building static mesh SM_Cube...
+[2024.10.02-13.42.14:970][539]LogStaticMesh: Built static mesh [0.01s] /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2024.10.02-13.42.14:994][539]LogViewport: Scene viewport resized to 1826x624, mode Windowed.
+[2024.10.02-13.42.53:374][784]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.10.02-13.42.53:388][784]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ButcherProject/Levels/BlockOut/LD_1_Auto1
+[2024.10.02-13.42.53:388][784]LogSavePackage: Moving '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/LD_1_Auto17DDB78174E8891157FC98D91EA766A8C.tmp' to '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/Autosaves/Game/ButcherProject/Levels/BlockOut/LD_1_Auto1.umap'
+[2024.10.02-13.42.53:389][784]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/Autosaves/Game/ButcherProject/Levels/BlockOut/LD_1_Auto1.umap is in the /Temp path, will not scan.
+[2024.10.02-13.42.53:389][784]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/ButcherProject/Levels/BlockOut/LD_1_Auto1 is in the /Temp path, will not scan.
+[2024.10.02-13.42.53:389][784]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/ButcherProject/Levels/BlockOut/LD_1_Auto1 is in the /Temp path, will not scan.
+[2024.10.02-13.42.53:389][784]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ButcherProject/Levels/BlockOut/LD_1' took 0.056
+[2024.10.02-13.42.53:389][784]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.056
+[2024.10.02-13.42.53:391][784]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelPrototyping/Meshes/SM_Cube] ([1] browsable assets)...
+[2024.10.02-13.42.53:420][784]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube]
+[2024.10.02-13.42.53:420][784]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/SM_Cube]
+[2024.10.02-13.42.53:427][784]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LevelPrototyping/Meshes/SM_Cube_Auto1
+[2024.10.02-13.42.53:427][784]LogSavePackage: Moving '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/SM_Cube_Auto125739D7949104E51952B939E33B055CF.tmp' to '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/Autosaves/Game/LevelPrototyping/Meshes/SM_Cube_Auto1.uasset'
+[2024.10.02-13.42.53:428][784]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296] ([1] browsable assets)...
+[2024.10.02-13.42.53:438][784]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296.CubeGridToolOutput_9C184296]
+[2024.10.02-13.42.53:438][784]OBJ SavePackage: Finished generating thumbnails for package [/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296]
+[2024.10.02-13.42.53:444][784]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296_Auto1
+[2024.10.02-13.42.53:444][784]LogSavePackage: Moving '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/CubeGridToolOutput_9C184296_Auto7B7BF2F146DEDD0D9FBC3BBFCA7B507F.tmp' to '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/Autosaves/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296_Auto1.uasset'
+[2024.10.02-13.42.53:445][784]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ButcherProject/Core/Rideau/BP_Rideau] ([2] browsable assets)...
+[2024.10.02-13.42.53:453][784]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau]
+[2024.10.02-13.42.53:453][784]OBJ SavePackage: Finished generating thumbnails for package [/Game/ButcherProject/Core/Rideau/BP_Rideau]
+[2024.10.02-13.42.53:471][784]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ButcherProject/Core/Rideau/BP_Rideau_Auto1
+[2024.10.02-13.42.53:471][784]LogSavePackage: Moving '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/BP_Rideau_Auto1F5D4068741A312B8AADC44B2C4743E9A.tmp' to '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/Autosaves/Game/ButcherProject/Core/Rideau/BP_Rideau_Auto1.uasset'
+[2024.10.02-13.42.53:472][784]LogFileHelpers: Auto-saving content packages took 0.082
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: ================================================
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: Total job queries 3 679, among them cache hits 17 (0.46%)
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: Tracking 3 657 distinct input hashes that result in 2 633 distinct outputs (72.00%)
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: RAM used: 67,36 MiB of 819,20 MiB budget. Usage: 8.22%
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: Shaders Compiled: 3 657
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: Jobs assigned 3 658, completed 3 657 (99.97%)
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: Average time worker was idle: 33.48 s
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: Time job spent in pending queue: average 90.49 s, longest 196.36 s
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: Job execution time: average 4.56 s, max 20.78 s
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: Job life time (pending + execution): average 95.08 s, max 202.03
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: Shader code size: average 38,283 KiB, min 2,086 KiB, max 162,84 KiB
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 227.63 s
+[2024.10.02-13.45.00:364][315]LogShaderCompilers: Display: Jobs were issued in 412 batches (only local compilation was used), average 8.88 jobs/batch
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display: Average processing rate: 16.07 jobs/sec
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display: Total thread time: 1 698,088 s
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display: Total thread preprocess time: 101,581 s
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display: Percentage time preprocessing: 5.98%
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display: Effective parallelization: 7.46 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 9.07 sec, max 14.80 sec, min 1.98 sec)
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.60 sec, max 9.13 sec, min 4.59 sec)
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 4.66 sec, max 4.66 sec, min 4.66 sec)
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display:                                        FCloudRenderViewPS110 (compiled    1 times, average 2.62 sec, max 2.62 sec, min 2.62 sec)
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display:                          TVoxelizeVolumeVS<VMode_Object_Box> (compiled    1 times, average 2.62 sec, max 2.62 sec, min 2.62 sec)
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display:                                             FDeferredLightPS - 14.39% of total time (compiled  134 times, average 1.82 sec, max 6.56 sec, min 1.28 sec)
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.37% of total time (compiled   96 times, average 0.95 sec, max 6.34 sec, min 0.57 sec)
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS - 4.33% of total time (compiled   33 times, average 2.23 sec, max 4.09 sec, min 1.36 sec)
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 4.25% of total time (compiled   34 times, average 2.12 sec, max 4.29 sec, min 1.02 sec)
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.14% of total time (compiled   96 times, average 0.73 sec, max 1.25 sec, min 0.16 sec)
+[2024.10.02-13.45.00:365][315]LogShaderCompilers: Display: ================================================
+[2024.10.02-13.45.00:543][325]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.02-13.47.11:144][ 10]Cmd: TRANSACTION UNDO
+[2024.10.02-13.47.11:144][ 10]LogEditorTransaction: Undo Set Scale
+[2024.10.02-13.47.11:817][ 38]Cmd: TRANSACTION UNDO
+[2024.10.02-13.47.11:817][ 38]LogEditorTransaction: Undo Set Location
+[2024.10.02-13.47.12:212][ 61]Cmd: TRANSACTION UNDO
+[2024.10.02-13.47.12:212][ 61]LogEditorTransaction: Undo Scale Elements
+[2024.10.02-13.47.12:758][ 93]Cmd: TRANSACTION UNDO
+[2024.10.02-13.47.12:759][ 93]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.02-13.48.30:020][482]LogViewport: Scene viewport resized to 1406x624, mode Windowed.
+[2024.10.02-13.49.03:292][346]LogStaticMesh: Display: Building static mesh SM_Cube...
+[2024.10.02-13.49.03:302][346]LogStaticMesh: Built static mesh [0.01s] /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2024.10.02-13.49.38:634][215]LogSlate: Window 'Accept changes instead?' being destroyed
+[2024.10.02-13.49.38:642][215]Message dialog closed, result: Yes, title: Accept changes instead?, text: The tool is being cancelled, which normally discards all changes. Would you like to apply the changes instead?
+
+ Selecting "No" or closing this window will discard the tool's current work.
+[2024.10.02-13.49.38:647][215]LogStaticMesh: Display: Building static mesh SM_Cube...
+[2024.10.02-13.49.38:651][215]LogStaticMesh: Built static mesh [0.00s] /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube
+[2024.10.02-13.49.38:679][215]LogViewport: Scene viewport resized to 1826x624, mode Windowed.
+[2024.10.02-13.49.43:372][458]Cmd: DELETE
+[2024.10.02-13.49.43:372][458]Cmd: ACTOR DELETE
+[2024.10.02-13.49.43:385][458]LogEditorActor: Deleted Actor: BP_Rideau_C
+[2024.10.02-13.49.43:413][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.10.02-13.49.43:416][458]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2024.10.02-13.49.51:825][942]Cmd: DELETE
+[2024.10.02-13.49.51:825][942]Cmd: ACTOR DELETE
+[2024.10.02-13.49.51:828][942]LogEditorActor: Deleted Actor: BP_Rideau_C
+[2024.10.02-13.49.51:836][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.10.02-13.49.51:839][942]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2024.10.02-13.49.54:222][ 80]Cmd: DELETE
+[2024.10.02-13.49.54:222][ 80]Cmd: ACTOR DELETE
+[2024.10.02-13.49.54:225][ 80]LogEditorActor: Deleted Actor: BP_Rideau_C
+[2024.10.02-13.49.54:231][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.10.02-13.49.54:233][ 80]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2024.10.02-13.49.57:130][244]Cmd: DELETE
+[2024.10.02-13.49.57:130][244]Cmd: ACTOR DELETE
+[2024.10.02-13.49.57:133][244]LogEditorActor: Deleted Actor: BP_Rideau_C
+[2024.10.02-13.49.57:143][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.02-13.49.57:145][244]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2024.10.02-13.52.53:733][682]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.10.02-13.52.53:745][682]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ButcherProject/Levels/BlockOut/LD_1_Auto2
+[2024.10.02-13.52.53:746][682]LogSavePackage: Moving '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/LD_1_Auto297A9C979477182117E2389AA95C00240.tmp' to '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/Autosaves/Game/ButcherProject/Levels/BlockOut/LD_1_Auto2.umap'
+[2024.10.02-13.52.53:748][682]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/Autosaves/Game/ButcherProject/Levels/BlockOut/LD_1_Auto2.umap is in the /Temp path, will not scan.
+[2024.10.02-13.52.53:748][682]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/ButcherProject/Levels/BlockOut/LD_1_Auto2 is in the /Temp path, will not scan.
+[2024.10.02-13.52.53:748][682]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/ButcherProject/Levels/BlockOut/LD_1_Auto2 is in the /Temp path, will not scan.
+[2024.10.02-13.52.53:748][682]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ButcherProject/Levels/BlockOut/LD_1' took 0.022
+[2024.10.02-13.52.53:748][682]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.022
+[2024.10.02-13.52.53:748][682]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/LevelPrototyping/Meshes/SM_Cube] ([1] browsable assets)...
+[2024.10.02-13.52.53:782][682]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/LevelPrototyping/Meshes/SM_Cube.SM_Cube]
+[2024.10.02-13.52.53:782][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/LevelPrototyping/Meshes/SM_Cube]
+[2024.10.02-13.52.53:787][682]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/LevelPrototyping/Meshes/SM_Cube_Auto2
+[2024.10.02-13.52.53:787][682]LogSavePackage: Moving '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/SM_Cube_Auto2DFE287A5420C3DC7FE36ED81BAF6389C.tmp' to '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/Autosaves/Game/LevelPrototyping/Meshes/SM_Cube_Auto2.uasset'
+[2024.10.02-13.52.53:788][682]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296] ([1] browsable assets)...
+[2024.10.02-13.52.53:788][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296]
+[2024.10.02-13.52.53:794][682]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296_Auto2
+[2024.10.02-13.52.53:794][682]LogSavePackage: Moving '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/CubeGridToolOutput_9C184296_Auto107AF4ED4D2C67EC95C1C7B250508845.tmp' to '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/Autosaves/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296_Auto2.uasset'
+[2024.10.02-13.52.53:797][682]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ButcherProject/Core/Rideau/BP_Rideau] ([2] browsable assets)...
+[2024.10.02-13.52.53:797][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/ButcherProject/Core/Rideau/BP_Rideau]
+[2024.10.02-13.52.53:808][682]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ButcherProject/Core/Rideau/BP_Rideau_Auto2
+[2024.10.02-13.52.53:808][682]LogSavePackage: Moving '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/BP_Rideau_Auto266FC51A04B71DE3179F1D0A3F51B7CDB.tmp' to '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/Autosaves/Game/ButcherProject/Core/Rideau/BP_Rideau_Auto2.uasset'
+[2024.10.02-13.52.53:809][682]LogFileHelpers: Auto-saving content packages took 0.062
+[2024.10.02-13.54.05:319][790]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.54.05:319][790]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.54.05:322][790]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_7
+[2024.10.02-13.54.05:323][790]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_7
+[2024.10.02-13.54.06:991][871]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.54.06:991][871]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.54.06:994][871]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_8
+[2024.10.02-13.54.06:996][871]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_8
+[2024.10.02-13.54.08:485][956]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.08:485][956]LogEditorTransaction: Undo Create Actors
+[2024.10.02-13.54.08:831][966]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.08:831][966]LogEditorTransaction: Undo Delete Elements
+[2024.10.02-13.54.09:118][974]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.09:118][974]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.02-13.54.09:372][982]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.09:372][982]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.02-13.54.09:646][998]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.09:646][998]LogEditorTransaction: Undo Delete Elements
+[2024.10.02-13.54.09:906][  7]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.09:907][  7]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.02-13.54.10:229][ 24]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.10:236][ 24]LogEditorTransaction: Undo Delete Elements
+[2024.10.02-13.54.10:430][ 32]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.10:430][ 32]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.02-13.54.10:626][ 43]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.10:626][ 43]LogEditorTransaction: Undo Delete Elements
+[2024.10.02-13.54.10:826][ 51]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.10:826][ 51]LogEditorTransaction: Undo Move Elements
+[2024.10.02-13.54.11:003][ 60]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.11:004][ 60]LogEditorTransaction: Undo Cube Grid Edit
+[2024.10.02-13.54.11:059][ 61]LogNavigation: Warning: FNavigationOctree::AddNode: Ignoring StaticMesh because bounds are invalid.
+[2024.10.02-13.54.11:197][ 69]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.11:197][ 69]LogEditorTransaction: Undo Cube Grid Edit
+[2024.10.02-13.54.11:253][ 70]LogNavigation: Warning: FNavigationOctree::AddNode: Ignoring StaticMesh because bounds are invalid.
+[2024.10.02-13.54.11:398][ 78]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.11:398][ 78]LogEditorTransaction: Undo Set Scale
+[2024.10.02-13.54.11:618][ 90]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.11:618][ 90]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.02-13.54.11:784][ 96]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.11:784][ 96]LogEditorTransaction: Undo Set Scale
+[2024.10.02-13.54.11:950][105]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.11:950][105]LogEditorTransaction: Undo Set Scale
+[2024.10.02-13.54.12:364][128]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.12:364][128]LogEditorTransaction: Undo Move Elements
+[2024.10.02-13.54.12:535][133]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.12:535][133]LogEditorTransaction: Undo Move Elements
+[2024.10.02-13.54.12:725][138]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.12:725][138]LogEditorTransaction: Undo Set Scale
+[2024.10.02-13.54.12:896][144]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.12:896][144]LogEditorTransaction: Undo Scale Elements
+[2024.10.02-13.54.13:094][154]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.13:094][154]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.02-13.54.13:320][164]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.13:320][164]LogEditorTransaction: Undo Cube Grid Edit
+[2024.10.02-13.54.13:373][165]LogNavigation: Warning: FNavigationOctree::AddNode: Ignoring StaticMesh because bounds are invalid.
+[2024.10.02-13.54.13:504][173]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.13:504][173]LogEditorTransaction: Undo Create Actors
+[2024.10.02-13.54.13:799][188]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.13:799][188]LogEditorTransaction: Undo Move Elements
+[2024.10.02-13.54.14:139][207]Cmd: TRANSACTION UNDO
+[2024.10.02-13.54.14:139][207]LogEditorTransaction: Undo Rotate Elements
+[2024.10.02-13.55.18:686][953]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.55.18:686][953]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.55.18:688][953]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_9
+[2024.10.02-13.55.18:690][953]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_9
+[2024.10.02-13.55.23:529][198]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.55.23:529][198]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau_C
+[2024.10.02-13.55.23:532][198]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_10
+[2024.10.02-13.55.23:533][198]LogActorFactory: Actor Factory spawned Blueprint /Game/ButcherProject/Core/Rideau/BP_Rideau.BP_Rideau as actor: BP_Rideau_C /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1:PersistentLevel.BP_Rideau_C_10
+[2024.10.02-13.55.39:871][129]LogViewport: Scene viewport resized to 1406x624, mode Windowed.
+[2024.10.02-13.56.24:127][527]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296) ...
+[2024.10.02-13.56.24:147][527]LogStaticMesh: Display: Building static mesh CubeGridToolOutput_9C184296...
+[2024.10.02-13.56.24:164][527]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296) ...
+[2024.10.02-13.56.24:178][527]LogStaticMesh: Built static mesh [0.03s] /Game/ButcherProject/Levels/BlockOut/_GENERATED/dguer/CubeGridToolOutput_9C184296.CubeGridToolOutput_9C184296
+[2024.10.02-13.56.27:596][656]LogViewport: Scene viewport resized to 1826x624, mode Windowed.
+[2024.10.02-13.56.28:518][687]LogMeshUtilities: Finished distance field build in 4.3s - 126x126x126 sparse distance field, 2.6Mb total, 0.1Mb always loaded, 75% occupied, 1326 triangles, CubeGridToolOutput_9C184296
+[2024.10.02-13.58.39:715][381]LogDerivedDataCache: C:/Users/PGW110/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.725 and deleted 0 files with total size 0 MiB and 1757 empty folders. Scanned 662 files in 2928 folders with total size 66 MiB.
+[2024.10.02-14.00.08:161][370]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.02-14.00.08:306][370]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.10.02-14.00.08:317][370]LogSavePackage: Moving output files for package: /Game/ButcherProject/Levels/BlockOut/LD_1
+[2024.10.02-14.00.08:318][370]LogSavePackage: Moving '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Saved/LD_1A2CC40CF4435ABED8100E5AFCBC42CF9.tmp' to '../../../../../../Users/PGW110/Documents/TheButcherColdRade/Content/ButcherProject/Levels/BlockOut/LD_1.umap'
+[2024.10.02-14.00.08:325][370]LogFileHelpers: Saving map 'LD_1' took 0.100
+[2024.10.02-14.00.08:338][370]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 328 ms)
+[2024.10.02-14.00.08:339][370]AssetCheck: New page: Asset Save: LD_1
+[2024.10.02-14.00.08:340][370]LogContentValidation: Display: Validating /Script/Engine.World /Game/ButcherProject/Levels/BlockOut/LD_1.LD_1
