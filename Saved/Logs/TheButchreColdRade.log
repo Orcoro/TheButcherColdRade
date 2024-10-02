@@ -1135,3 +1135,10 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.02-14.39.32:024][  0]NetworkingProfiler: OnSessionChanged
 [2024.10.02-14.39.32:024][  0]MemoryProfiler: Initialize
 [2024.10.02-14.39.32:024][  0]MemoryProfiler: OnSessionChanged
+[2024.10.02-14.39.32:760][  0]LogFileCache: Scanning file cache for directory 'C:/Users/PGW110/Documents/TheButcherColdRade/Content/' took 0.03s
+[2024.10.02-14.39.33:005][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2024.10.02-14.39.33:171][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2024.10.02-14.39.33:192][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.10.02-14.39.33:199][  0]SourceControl: Revision control is disabled
+[2024.10.02-14.39.33:454][  0]LogSlate: Took 0.010369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.10.02-14.39.33:786][  0]LogAssetRegistry: Display: Asset registry cache written as 17.0 MiB to ../../../../../../Users/PGW110/Documents/TheButcherColdRade/Intermediate/CachedAssetRegistry_*.bin
